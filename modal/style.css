@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid red; */
+    width:50%;
+    margin: 0 auto;
+    background-color: rgb(144, 150, 238);
+    display: none;
+
+}
+
+#form input{
+    width:30%;
+    margin:0 auto;
+    padding:12px;
+}
+
+label{
+    margin:10px auto;
+    color:rgb(74,74,228);
+    font-size: 20px;
+
+
+
+}
+
+#form #submit, #sign_up{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(74, 74, 228);
+    padding:12px;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+    border:1px solid transparent;
+    outline:nonel
+}
+
+#form #submit:hover{
+    color:rgb(74,74,228);
+    border:1px solid rgb(74,74,228);
+    background-color: white;
+}
+
+#star{
+    width:20%;
+    margin:0 auto;
+    font-size: 50px;
+    cursor:pointer;
+}
+
+.yellow{
+    color:yellow;
+}
+
+.black{
+    color:black;
+}
+
+
+
