@@ -4,7 +4,7 @@ const cross = document.querySelector('.cross');
 const background = document.querySelector('.background');
 
 button.addEventListener('click', ()=>{
-     signUp.style.display="flex";
+
      background.style.display="block";
 });
 
